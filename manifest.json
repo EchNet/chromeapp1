@@ -11,14 +11,7 @@
   },
   "icons": { "16": "calculator-16.png", "128": "calculator-128.png" },
   "permissions": [
-    { "fileSystem": [ "write", "retainEntries", "directory" ] },
     "storage"
   ],
-  "file_handlers": {
-    "text": {
-      "types": [
-        "text/*"
-      ]
-    }
-  }
+  "kiosk_enabled": true
 }

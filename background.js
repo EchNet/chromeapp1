@@ -8,12 +8,12 @@ console.log("background script running");
 // How do you make objects available to page scripts from here?
 
 function createStatusWindow(launchData) {
-  chrome.app.window.create('status.html', {
+  chrome.app.window.create("kiosk.html", {
     'outerBounds': {
       'width': 400,
       'height': 500,
-      'left': 100,
-      'top': 100
+      'left': 20,
+      'top': 20
     }
   }, function(win) {
     win.contentWindow.launchData = launchData;
